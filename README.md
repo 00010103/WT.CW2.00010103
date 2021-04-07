@@ -2,7 +2,7 @@
 
 ## About the app
 
-*This web application was created according to the criteria of the course work on Web Technology.*
+*This web application was created according to the criteria of the course work on Web Technologies module.*
 
 *Also has the functionality to post, watch and delete the specified information.*
 
