@@ -1,0 +1,15 @@
+extend home
+
+block content
+  div.container
+    h1.post1= post.title 
+    div.post1
+      h3.post2 Author: 
+      h3.post2= post.author
+
+    p.post1= post.body
+
+    a(href='/posts1').forpost Back
+    a(href="/posts1/" + post.id + "/delete").forpost Delete
+
+  include footer.pug

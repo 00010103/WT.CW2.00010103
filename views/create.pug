@@ -1,0 +1,23 @@
+extend home
+
+block content
+  h2(class='container') Create post
+
+  if show
+    div.message Your note was successfully added.
+  
+  form(method="post" action="/WT.CW2.00010103/create" class='container')
+    label(for="title").lbl Title
+    input(type="text" name="title" id="title" placeholder="Title of the text" required)
+
+    label(for="author").lbl Author 
+    input(type="text" name="author" id="author" placeholder="Your Name" required)
+
+    label(for="body").lbl Content
+    textarea(name="details" id="body" rows="10" placeholder="Your Text" required)
+
+    input(type="submit" value="Publish" class='btn3')
+    a(class='btn2' href='/').button Back
+  
+  include footer.pug
+    

@@ -1,0 +1,25 @@
+extend home
+
+block content
+
+  div.container
+    h1.posttitle All Posts
+    if posts
+      ul.posts-list
+        each post in posts
+          li
+            a(href="/posts1/" + post.id).post= post.title
+            p.author= post.author 
+
+            a(href="/posts1/" + post.id).read Read
+  
+      a(class='btn' href='/WT.CW2.00010103/create').button Create
+      a(class='btn2' href='/').button Back
+    else 
+      h1.posttitle Ooops, No Posts Yet
+
+      a(class='btn' href='/WT.CW2.00010103/create').button Create
+      a(class='btn2' href='/').button Back
+
+    
+  
