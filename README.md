@@ -9,7 +9,7 @@
 ## Links
 
 ###### [Git-Hub](https://github.com/00010103/WT.CW2.00010103)
-###### [WebSite](http://north-witty-yttrium.glitch.me/)
+###### [WebSite](http://north-witty-yttrium.glitch.me/) <-- Teacher addeed this to the glitch but it's still not working :(
 
 ##  Instructions on how to run the app manually.
 
